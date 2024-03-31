@@ -1,0 +1,34 @@
+.categoryCard {
+    background-color: #ffffff;
+    border: 1px solid #d4d1d1;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(173, 166, 166, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.4S;
+  }
+  
+  .categoryCard:hover {
+    transform: translateY(-9px);
+    cursor: pointer;
+  }
+  
+  .categoryImage {
+    width: 10%;
+  }
+  
+  .categoryName {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #655a5a;
+  }
+  
+  .link{
+    color: #d4d1d1;
+    background-color: gray;
+    border: 1px solid #d4d1d1;
+    border-radius: 8px;
+    text-decoration: none;
+    padding: 5px;
+    margin-top: 5px;
+  }

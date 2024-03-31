@@ -1,0 +1,159 @@
+.all{
+    display: flex;
+    margin-top: 10px;
+
+    flex-wrap: wrap;
+}
+.carts{
+    width: calc( 75% - 30px);
+padding: 0 30px;
+}
+.cardBody1{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+.cardBody{
+    display: flex;    
+    gap: 10px;
+
+    justify-content: space-between;
+    /* gap: 30px; */
+    border-top: 5px solid rgba(207, 190, 190, 0.5);
+    padding: 5px ;
+    border-bottom: 5px solid rgba(215, 193, 193, 0.5);
+    overflow-x: auto;
+}
+.cardBody img{
+    width: 80px;
+    height: 80px;
+
+}
+.cardBody h6{
+    width: 150px;
+}
+.columnLabels {
+/* display: flex; */
+/* justify-content: space-between; */
+gap: 30px;
+
+}
+.title{
+    font-family: initial;
+    /* font-weight: 500; */
+    font-size: 14px;
+    color: #655a5a;
+}
+.rightDiv{
+    background-color: rgb(232, 163, 163);
+    height: 400px;
+    width: 327px;
+    /* /border-radius: 23px; */
+    text-align: center;
+    border:1px solid #8d8c8c;
+margin-top: 50px;
+margin:auto; 
+border-radius: 25% 10%;
+/* display: flex;
+flex-direction: column;
+align-items: center; */
+}
+.buttonRemove{
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+        margin-top: 25px;
+}
+
+.nine{
+    margin-bottom: 20px;
+}
+.nine h2 {
+    text-align:center; font-size:40px; text-transform:uppercase; color:#222; letter-spacing:1px;
+    font-family:"Playfair Display", serif; font-weight:400;
+  }
+  .nine h2 span {
+    margin-top: 5px;
+      font-size:15px; color:#444;
+      word-spacing:1px;
+      font-weight:normal;
+       letter-spacing:2px;
+    text-transform: uppercase;
+     font-family:"Raleway", 
+     sans-serif; font-weight:500;
+
+    display: grid;
+    align-items: center;
+  }
+  
+  /*.nine h2 span:after,.nine h2 span:before {
+      content: " ";
+      display: block;
+      border-bottom: 1px solid #ccc;
+      border-top: 1px solid #ccc;
+      height: 5px;
+    background-color:#f8f8f8;
+  }*/
+
+.cardText {
+font-weight: 500;
+font-size: 17px;
+}
+.button1{
+    border-radius: 7px;
+    border: rgb(255, 255, 255);
+    background-color: white;
+}
+.moeny{
+    border: 1px solid rgb(180, 177, 177);
+    padding: 10px;
+display: flex;
+    justify-content: space-between;
+    margin: 0 10px 10px 10px;
+}
+.font{
+    color: #635f5f;
+}
+.button2{
+    border-radius: 7px;
+    border: 1px solid rgb(224, 76, 76);
+    background-color: rgb(230, 230, 230);
+    width: 300px;
+    padding: 10px;
+    margin: 0 10px 10px 10px;
+
+}
+.noCart{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 30px;
+}
+ .pardiv{
+    border-radius: 7px;
+    border: 2px solid rgb(186, 160, 160);
+    background-color: rgb(230, 230, 230);
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 10px;
+    
+}
+.buttonu{
+    width: 100px;
+    transition: all 3s;
+    border: 2px solid #333333;
+    border-radius: 25% 10%;
+  
+}
+ .link{
+    text-decoration-line: none;
+    color: #222;
+}
+
+@media (max-width: 1187px) {
+    .carts{
+        width: calc( 100% - 30px);
+
+    }
+  }

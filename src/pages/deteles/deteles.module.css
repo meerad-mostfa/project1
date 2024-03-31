@@ -1,0 +1,51 @@
+.detelesCard {
+    background-color: #ffffff;
+    border: 1px solid #d4d1d1;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(173, 166, 166, 0.1);
+    padding: 20px;
+    text-align: center;
+    
+margin: 20px 30px 40px 30px;
+  }
+  
+  .detelesName {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #655a5a;
+  }
+  
+  .reviewsCard {
+    background-color: #e3e1e1;
+    border: 1px solid #d4d1d1;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(173, 166, 166, 0.1);
+    padding: 20px;
+   
+    transition: transform 0.4S;
+    margin: 20px 50px 40px 50px;
+  }
+  
+  .reviewsCard:hover {
+    transform: translateY(-9px);
+    cursor: pointer;
+  }
+  
+  .categoryImage {
+    width: 10%;
+  }
+  
+  .categoryName {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #655a5a;
+  }
+.h1{
+    background-color: #ffffff;
+    border: 1px solid #d4d1d1;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(173, 166, 166, 0.1);
+    padding: 20px;
+    text-align: center;
+
+}
